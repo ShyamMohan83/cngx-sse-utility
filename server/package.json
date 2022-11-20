@@ -1,0 +1,15 @@
+{
+  "name": "cngx-demo-server",
+  "version": "1.0.0",
+  "description": "sse application serve push data to client demo app ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shyam Mohan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
