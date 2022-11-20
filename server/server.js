@@ -13,7 +13,7 @@ app.get('/',(req,res) => {
         responseData = JSON.stringify(responseData);
         res.write(`data: ${responseData}\n\n`);
         counter = counter + 1;
-    },1000);  
+    },3000);  
     
     res.on('close', ()=>{
         clearInterval(intervalReference);
